@@ -1,0 +1,25 @@
+<div class="create-modal d-block d-grid justify-content-end">
+    <button id="create-button" class="btn btn-outline-danger">Create Message</button>
+</div>
+<div class="create-modal d-none">
+    <form style="width: 600px;">
+        <input type="text" name="title" class="form-control" placeholder="Title" required minlength="2">
+        <textarea name="content" class="form-control" placeholder="Create a new message"
+            required minlength="10" style="height:100px;"></textarea>
+        <button type="submit" value="save" class="btn btn-outline-primary">Save</button>
+        <button type="submit" value="cancel" formnovalidate class="btn btn-outline-secondary">Cancel</button>
+    </form>
+    
+    
+</div>
+
+<table class="table table-striped mt-3">
+    <thead>
+        <th scope="col">action</th>
+        <th scope="col">Title</th>
+        <th scope="col">Email</th>
+        <th scope="col" class="w-50">Content</th>
+        <th scope="col">Posted At</th>
+    </thead>
+    <tbody></tbody>
+</table>

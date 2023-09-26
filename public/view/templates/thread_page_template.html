@@ -1,0 +1,23 @@
+<h1>Thread View</h1>
+<!-- This is the message of the thread -->
+<h4 id="message-title" class="bg-primary text-white"></h4>
+<div id="message-email-timestamp"></div>
+<div id="message-content" class="bg-secondary text-white"></div>
+
+<!-- Replies to this message -->
+<table class="table table-stripped mt-3">
+    <thead>
+        <th class="w-75"></th>
+        <th></th>
+    </thead>
+    <tbody id="reply-tbody"></tbody>
+</table>
+
+<!-- Add a new reply -->
+<hr>
+<div class="m-3 p-3 bg-info bg-opacity-25 w-75">
+    <form id="form-add-reply">
+        <textarea name="content" placeholder="Leave a reply" class="form-control"></textarea>
+        <button type="submit" class="btn btn-outline-primary">Add</button>
+    </form>
+</div>
